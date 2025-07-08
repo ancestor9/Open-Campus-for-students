@@ -1,7 +1,9 @@
 ## 나만의 챗봇 만들기
 1. [google colab 클릭](https://colab.research.google.com/)
-2. gemini API 키를 만들고 Python용 빠른 시작
-3. Setup Key 설정 (발급받은 gemini key를 입력하라. 아래 코드만 수정)
+2. 새노트 열기 취소 > Open in Colab
+3. [Get_started.ipynb](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Get_started.ipynb)
+4. gemini API 키를 만들고 Python용 빠른 시작
+5. Setup Key 설정 (발급받은 gemini key를 입력하라. 아래 코드만 수정)
 -      - from google.colab import userdata
        - GOOGLE_API_KEY = userdata.get('gemini-key')
    
